@@ -17,7 +17,7 @@ public class Vowelreplace {
 			char str1=Str.charAt[i];
 			if(c[i]=='A'||c[i]=='E'||c[i]=='I'||c[i]=='O'||c[i]=='U'||c[i]=='a'||c[i]=='e'||c[i]=='i'||c[i]=='o'||c[i]=='u')
 			{
-				Str=Str.replaceAll((String)c[i], "$");
+				Str=Str.replaceAll(c[i], '$');
 			}
 	 }
 		System.out.println(Str);
